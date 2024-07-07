@@ -23,11 +23,6 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'Ecommerce App',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
       home: LoginLogout(), // Replace with your home page widget
     );
   }
